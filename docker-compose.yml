@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  api-bcp:
+    build: .
+    image: leo1897/pt-bcp:latest
+    ports:
+      - "8080:8080"
